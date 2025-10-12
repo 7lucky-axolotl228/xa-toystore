@@ -323,3 +323,49 @@ button {
 .all-toys img {
     margin-left: 5px;
 }
+
+.catalog-1__body {
+    margin-top: 55px;
+}
+.catalog-1__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.catalog-1__list-item {
+}
+.catalog-item {
+    width: 270px;
+    height: 328px;
+    padding: 15px 10px 10px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0px 1px 2px 0px #00000026;
+    background-color: #fff;
+}
+.catalog-item:not(:last-child) {
+    margin-right: 40px;
+}
+.catalog-item__img {
+    margin-bottom: 20px;
+}
+.catalog-item__toy-name {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.catalog-item__price {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.5px;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #a5c926;
+}
