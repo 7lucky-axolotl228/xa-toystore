@@ -273,7 +273,7 @@ button {
     padding-bottom: 30px;
     border-bottom: 2px solid #e5e5e5;
 }
-.catalog-1__header p {
+.catalog-1__header p, a {
     margin: 0;
 }
 .catalog-1__title {
@@ -321,6 +321,7 @@ button {
     display: flex;
     align-items: center;
     padding-bottom: 4px;
+    color: #111;
     border-bottom: 2px solid #ddd;
 }
 .all-toys img {
