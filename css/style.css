@@ -256,6 +256,9 @@ button {
 }
 
 /* Stuffed Animals catalog */
+.catalog-list {
+    margin-bottom: 120px;
+}
 .catalog-list__container {
     padding: 0;
 }
@@ -324,17 +327,15 @@ button {
     margin-left: 5px;
 }
 
-.catalog-1__body {
+.catalog-1__body, .catalog-2__body {
     margin-top: 55px;
 }
-.catalog-1__list {
+.catalog-1__list, .catalog-2__list {
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
     list-style: none;
-}
-.catalog-1__list-item {
 }
 .catalog-item {
     width: 270px;
