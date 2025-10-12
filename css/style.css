@@ -184,17 +184,17 @@ button {
 }
 
 /* CATALOG */
-.catalog {
-}
 .catalog__container {
     margin-top: 120px;
     margin-bottom: 120px;
+    padding: 0;
 }
 .catalog__toy-types {
     display: flex;
     align-items: center;
-    width: 1165px;
+    width: 1200px;
     margin-bottom: 120px;
+    padding: 0;
 }
 .toy-types__content {
     width: 570px;
@@ -208,7 +208,7 @@ button {
 }
 .toy-types__stuffed {
     display: flex;
-    margin-right: 25px;
+    margin-right: 60px;
     background-color: #FFC12C;
 }
 .toy-types__wooden {
@@ -256,7 +256,8 @@ button {
 }
 
 /* Stuffed Animals catalog */
-.catalog__stuffed-animals {
+.catalog-list__container {
+    padding: 0;
 }
 .catalog-1 {
     padding-bottom: 120px;
