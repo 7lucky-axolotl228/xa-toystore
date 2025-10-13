@@ -132,8 +132,10 @@ button {
 .header-info__span {
     width: 20px;
     height: 20px;
+    padding-left: 5.5px;
     border-radius: 50%;
     align-items: center;
+    color: #fff;
     background-color: #A5C926;
 }
 
