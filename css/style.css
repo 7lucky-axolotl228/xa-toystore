@@ -373,3 +373,62 @@ button {
     color: #fff;
     background-color: #a5c926;
 }
+
+
+
+
+.about-shop {
+    height: 464px;
+    background-image: url('../img/video-bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.about-shop__container {
+    position: relative;
+}
+.about-shop__content {
+    top: 120px;
+    left: 200px;
+    position: absolute;
+    width: 800px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about-shop__text {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+.about-shop__title {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Vareka Round', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+}
+.about-shop__description {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.about-shop__btn {
+    margin: 0;
+    padding: 20px;
+    width: 64px;
+    height: 64px;
+    border: 0;
+    background-color: #a5c926;
+}
+.btn__play-icon {
+}
