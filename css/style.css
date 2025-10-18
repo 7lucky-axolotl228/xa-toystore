@@ -59,6 +59,13 @@ button {
     flex-grow: 1;
 }
 
+.btn-green {
+    border: 0;
+    border-radius: 24px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #a5c926;
+}
 
 /* Site Header */
 .site-header__contacts {
@@ -177,12 +184,7 @@ button {
 .hero__btn {
     margin: 0;
     margin-top: 25px;
-    border: 0;
-    border-radius: 24px;
     padding: 12px 20px;
-    font-size: 14px;
-    color: #fff;
-    background-color: #a5c926;
 }
 
 /* CATALOG */
@@ -430,5 +432,68 @@ button {
     border: 0;
     background-color: #a5c926;
 }
-.btn__play-icon {
+.info-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.info-section__container {
+    padding: 0;
+}
+.info-section__heading {
+    margin-bottom: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 128px;
+    text-align: center;
+}
+.info-section__heading-text {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #a5c926;
+}
+.info-section__heading-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+}
+.info-section__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-body__description {
+    margin-right: 100px;
+}
+.info-body__title {
+    position: relative;
+    padding-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+}
+.info-body__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 70px;
+  height: 2px;
+  background-color: #a5c926;
+}
+.info-body__text {
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.info-body__btn {
+}
+.btn-green {
+    padding: 12px 20px;
 }
